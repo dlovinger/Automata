@@ -1,4 +1,4 @@
 # Automata
-Cellular automata in processing
+Cellular automata in Processing.
 
 Syntax is in python. Use python mode in Processing.
