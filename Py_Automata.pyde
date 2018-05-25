@@ -11,12 +11,15 @@ startSeed = 1
 fps = 8.0
 #define size, midpoint, etc
 s = 8     #EVEN sxs pixel cell
+height = 800
+width = 800
+
 if s%2 == 0:
-    h = 800
-    w = 800
+    h = height
+    w = width
 else:
-    h = 800 + s
-    w = 800 + s
+    h = height + s
+    w = width + s
 mid = ceil(float(w/s)/2)
 
 if startSeed == 1:
